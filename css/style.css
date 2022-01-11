@@ -1,0 +1,250 @@
+body{
+    background-color: #4A72FF;
+}
+
+/*Временное окно*/
+#menu{
+    display: none;
+}
+
+.btn{
+    z-index: 999999;
+}
+
+.menu{
+    position: absolute;
+    top: 160px;
+    left: 640px;
+
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    z-index: 99999;
+    border-radius: 26px;
+    box-shadow: 0px 0px 20px 5px;
+}
+
+.info_menu{
+    text-align: center;
+    margin-top: 165px;
+    font-family: 'Comfortaa',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Animation */
+@keyframes moveRightLeft {
+    0% {
+    transform: translateX(0px);
+    }
+    100% {
+    transform: translateX(20px);
+    }
+}
+
+@keyframes moveUpDown {
+    0% {
+    transform: translateY(-37px);
+    }
+    100% {
+    transform: translateY(0px);
+    }
+}
+
+
+/* header */
+
+.logo{
+    margin-top: 140px;
+}
+
+.info_header{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-top: 350px;
+}
+
+.next_section{
+    margin-top: 370px;
+
+    animation: moveRightLeft 0.8s infinite alternate;
+}
+
+/* Не изменяемая секция */
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin-top: 60px;
+}
+
+.collaps_one{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.8s infinite alternate;
+}
+
+.collaps_two{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.7s infinite alternate;
+}
+
+.collaps_three{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.8s infinite alternate;
+}
+
+.collaps_four{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.7s infinite alternate;
+}
+
+.collaps_five{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.8s infinite alternate;
+}
+
+.collaps_six{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.7s infinite alternate;
+}
+
+.collaps_seven{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.8s infinite alternate;
+}
+
+.collaps_eight{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.7s infinite alternate;
+}
+
+.collaps_nine{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.8s infinite alternate;
+}
+
+.collaps_ten{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.7s infinite alternate;
+}
+
+.collaps_eleven{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.8s infinite alternate;
+}
+
+.collaps_twelv{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 698px;
+    z-index: -1;
+
+    animation: moveUpDown 0.7s infinite alternate;
+}
+
+.git{
+    margin-top: 30px;
+    transition: .2s ease;
+}
+
+.git:hover{
+    margin-top: 25px;
+}
+
+.name_dev{
+    font-family: 'Comfortaa',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.vk{
+    margin-top: 30px;
+    transition: .2s ease;
+}
+
+.vk:hover{
+    margin-top: 25px;
+}

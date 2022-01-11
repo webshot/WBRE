@@ -1,0 +1,92 @@
+/*adaptive*/
+/*@media screen and (max-width: 320px){
+
+}
+@media screen and (max-width: 375px){
+
+}
+@media screen and (max-width: 425px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 1024px){
+  .photo_one{
+    display: none;
+  }
+}
+@media screen and (max-width: 1280px){
+  
+}
+@media screen and (max-width: 1440px){
+
+}
+@media screen and (max-width: 1496px){
+
+}
+@media screen and (max-width: 1590.20px){
+
+}
+@media screen and (max-width: 1688px){
+
+}*/
+
+@media screen and (max-width: 2560px){
+
+}
+@media screen and (max-width: 1688px){
+
+}
+@media screen and (max-width: 1590.20px){
+
+}
+@media screen and (max-width: 1496px){
+
+}
+@media screen and (max-width: 1280px){
+  
+}
+@media screen and (max-width: 1024px){
+  .photo_one{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 425px){
+  .jq{
+    width: 290px;
+  }
+  .photo_two{
+    margin-left: 96px;
+    margin-top: 187px;
+  }
+}
+@media screen and (max-width: 375px){
+  .footer{
+    height: 573px;
+  }
+  .photo_two {
+    margin-left: 108px;
+    margin-top: 232px;
+}
+}
+@media screen and (max-width: 320px){
+  .footer{
+    height: 573px;
+  }
+  .photo_two {
+    margin-left: 92px;
+    margin-top: 187px;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald',sans-serif;
+  font-weight: 400;
+  font-size: 29px;
+  text-align: center;
+}
+}
