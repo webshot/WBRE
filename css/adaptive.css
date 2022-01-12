@@ -48,45 +48,124 @@
   
 }
 @media screen and (max-width: 1024px){
-  .photo_one{
-    display: none;
-  }
+
 }
 @media screen and (max-width: 768px){
 
 }
 @media screen and (max-width: 425px){
-  .jq{
-    width: 290px;
+  .logo{
+    display: none;
   }
-  .photo_two{
-    margin-left: 96px;
-    margin-top: 187px;
+
+  .footer{
+    display: none;
   }
+
+  .info_header {
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-top: 34px;
+}
+
+.menu {
+  position: absolute;
+  top: 265px;
+  left: 42px;
+  width: 219px;
+  height: 230px;
+  background-color: white;
+  z-index: 99999;
+  border-radius: 26px;
+  box-shadow: 0px 0px 20px 5px;
+}
+
+.info_menu {
+text-align: center;
+margin-top: 73px;
+font-family: 'Comfortaa',sans-serif;
+font-weight: 400;
+font-size: 20px;
+}
+
 }
 @media screen and (max-width: 375px){
-  .footer{
-    height: 573px;
+  .logo{
+    display: none;
   }
-  .photo_two {
-    margin-left: 108px;
-    margin-top: 232px;
-}
-}
-@media screen and (max-width: 320px){
+
   .footer{
-    height: 573px;
+    display: none;
   }
-  .photo_two {
-    margin-left: 92px;
-    margin-top: 187px;
+
+  .info_header {
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-top: 34px;
 }
-h1 {
-  margin: 0;
-  padding: 0;
-  font-family: 'Oswald',sans-serif;
-  font-weight: 400;
-  font-size: 29px;
+
+.menu {
+  position: absolute;
+  top: 265px;
+  left: 42px;
+  width: 219px;
+  height: 230px;
+  background-color: white;
+  z-index: 99999;
+  border-radius: 26px;
+  box-shadow: 0px 0px 20px 5px;
+}
+
+.info_menu {
+text-align: center;
+margin-top: 73px;
+font-family: 'Comfortaa',sans-serif;
+font-weight: 400;
+font-size: 20px;
+}
+
+}
+  
+  
+  @media screen and (max-width: 320px){
+    .logo{
+      display: none;
+    }
+
+    .footer{
+      display: none;
+    }
+
+    .info_header {
+      font-family: 'Oswald',sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      color: white;
+      margin-top: 34px;
+  }
+
+  .menu {
+    position: absolute;
+    top: 265px;
+    left: 42px;
+    width: 219px;
+    height: 230px;
+    background-color: white;
+    z-index: 99999;
+    border-radius: 26px;
+    box-shadow: 0px 0px 20px 5px;
+}
+
+.info_menu {
   text-align: center;
+  margin-top: 73px;
+  font-family: 'Comfortaa',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
 }
+
 }
